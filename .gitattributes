@@ -1,2 +1,96 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acerca de Mí</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+    }
+
+    header {
+      background-color: #2b2d42;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-top: -2rem;
+      border-radius: 10px;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: #2b2d42;
+      border-bottom: 2px solid #edf2f4;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tu Nombre Aquí</h1>
+    <p>Bienvenido a mi página personal</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre Mí</h2>
+      <p>Escribe aquí una breve presentación sobre quién eres, tu edad, ciudad o algo que te identifique.</p>
+    </section>
+
+    <section>
+      <h2>Mis Gustos</h2>
+      <ul>
+        <li>📚 Leer</li>
+        <li>🎮 Jugar videojuegos</li>
+        <li>🎶 Escuchar música</li>
+        <li>🎨 Dibujar</li>
+        <!-- Agrega o cambia tus gustos aquí -->
+      </ul>
+    </section>
+
+    <section>
+      <h2>Estudios</h2>
+      <p>Estoy estudiando en [nombre de tu escuela/universidad]. Me interesa aprender sobre [tema o carrera].</p>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>Puedes escribirme a: <strong>tunombre@email.com</strong></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 T
